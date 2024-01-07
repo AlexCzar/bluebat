@@ -111,6 +111,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "bluebat"
+version = "0.1.0"
+dependencies = [
+ "blurz",
+ "burble",
+]
+
+[[package]]
 name = "blurz"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -721,14 +729,6 @@ checksum = "f8dd2a808d456c4a54e300a23e9f5a67e122c3024119acbfd73e3bf664491cb2"
 dependencies = [
  "hmac",
  "subtle",
-]
-
-[[package]]
-name = "rubat"
-version = "0.1.0"
-dependencies = [
- "blurz",
- "burble",
 ]
 
 [[package]]
